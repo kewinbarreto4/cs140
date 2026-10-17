@@ -1,0 +1,35 @@
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Round 1: Width and Height */
+/* Round 2: Padding */
+/* Round 3: Border and Box Sizing */
+/* Round 4: Margin */
+
+.card {
+    background-color: lightblue;
+    width: 400px;
+
+    /* Remove height to prevent text overflow */
+    /* height: 80px; */
+
+    /* Padding: top/bottom 10px, left/right 30px */
+    padding: 10px 30px;
+
+    border: 3px solid navy;
+
+    /* Keeps the total card width at exactly 400px */
+    box-sizing: border-box;
+
+    /* Creates space between cards */
+    margin: 0 auto 24px;
+}
