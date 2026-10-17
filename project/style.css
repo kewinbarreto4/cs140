@@ -1,7 +1,7 @@
 
 /* NONCHALANT FITS — shared stylesheet */
 
-:root {
+:root {  /* i used ai to know but i know how to do it*/
     --espresso: #302219;
     --brown: #594131;
     --taupe: #9b8068;
@@ -77,7 +77,7 @@ nav {
 
 nav a {
     padding: 7px 0;
-    color: var(--brown);
+    color:#2b2119;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.12em;
