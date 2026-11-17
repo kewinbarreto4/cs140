@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  color: #f3f6f8;
-  background-color: #17212b;
+  color: white;
+  background-color: darkslategray;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
@@ -9,19 +9,24 @@ body {
 header {
   padding: 1.5rem;
   text-align: center;
-  background-color: #263746;
+  background-color: darkolivegreen;
+}
+
+nav a:hover,
+aside a:hover {
+  color: white;
 }
 
 nav {
   display: flex;
   justify-content: center;
   padding: 1rem;
-  background-color: #101820;
+  background-color: black;
 }
 
 nav a {
   margin: 0 0.75rem;
-  color: #9fe4d1;
+  color: khaki;
   text-decoration: none;
 }
 
@@ -38,19 +43,19 @@ aside {
   flex: 1;
   margin-left: 1.5rem;
   padding: 1rem;
-  background-color: #263746;
+  background-color: darkolivegreen;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #f7fafc;
-  color: #17212b;
+  color: black;
+  background-color: beige;
 }
 
 caption {
   padding: 0.75rem;
-  color: #f3f6f8;
+  color: white;
   font-size: 1.1rem;
   font-weight: bold;
   text-align: left;
@@ -59,27 +64,27 @@ caption {
 th,
 td {
   padding: 0.8rem;
-  border: 1px solid #9aaab5;
+  border: 1px solid gray;
   text-align: left;
 }
 
 thead th {
-  color: #ffffff;
-  background-color: #176b5b;
+  color: black;
+  background-color: darkkhaki;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #eaf0f4;
+  background-color: lightgray;
 }
 
 aside a {
-  color: #9fe4d1;
+  color: khaki;
 }
 
 footer {
   padding: 1rem;
   text-align: center;
-  background-color: #101820;
+  background-color: black;
 }
 
 @media (max-width: 700px) {
@@ -98,7 +103,7 @@ footer {
   }
 
   aside {
-    margin-left: 0;
     margin-top: 1rem;
+    margin-left: 0;
   }
 }
